@@ -1,0 +1,7 @@
+1625849102997	geckodriver	INFO	Listening on 127.0.0.1:40337
+1625849233588	geckodriver	INFO	Listening on 127.0.0.1:57797
+1625849233595	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileb5fZ0i"
+1625849301381	geckodriver	INFO	Listening on 127.0.0.1:58889
+1625849301386	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBlTR82"
+1625849550601	geckodriver	INFO	Listening on 127.0.0.1:43265
+1625849550606	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGuFKR2"
