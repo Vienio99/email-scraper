@@ -2,6 +2,7 @@ import os, requests, re
 from selenium import webdriver
 
 emails = []
+pageNo = 0
 
 def findAllLinks(link):
   options = webdriver.ChromeOptions()
@@ -24,13 +25,14 @@ def findAllLinks(link):
 
     browser.close()
 
-# for n in range(1, 10):
-#   findAllLinks('http://przedszkolowo.pl/baza-przedszkoli/%s' %n)
-findAllLinks('http://przedszkolowo.pl/baza-przedszkoli/1')
+for n in range(100, 200):
+  findAllLinks('http://przedszkolowo.pl/baza-przedszkoli/%s' %n)
+  pageNo = n
 
 for email in emails:
   file = open("emailList.txt", "a")
   file.write(email)
   file.write('\n')
 print(emails)
+print(pageNo)
 
